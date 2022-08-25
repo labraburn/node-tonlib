@@ -1,12 +1,15 @@
 # node-tonlib
 
-Installation
+- NodeJS wrapper for [tonlibjson](https://github.com/ton-blockchain/ton/tree/master/tonlib/tonlib) written as c++ addon.
+- Binaries can be located here - [pytonlib](https://github.com/toncenter/pytonlib/tree/main/pytonlib/distlib)
+
+## Installation
 
 ```
 npm install node-tonlib
 ```
 
-Usage
+## Usage
 
 ```ts
 import tonlib from "node-tonlib";
