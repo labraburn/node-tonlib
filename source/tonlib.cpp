@@ -38,6 +38,7 @@ Napi::Object Tonlib::Init(Napi::Env env, Napi::Object exports)
     libtonlibjson = __dlfcn_dlopen(__libtonlibjson);
     if (!libtonlibjson)
     {
+        fprintf(stderr, "__dlfcn_dlopen failed: %s\n", dlerror());
         Napi::TypeError::New(env, "Can't load libtonlibjson for current platfrom").ThrowAsJavaScriptException();
         return Napi::Object(env, env.Null());
     }
