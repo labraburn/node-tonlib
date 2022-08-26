@@ -10,9 +10,7 @@
         ],
         'defines': ['NAPI_DISABLE_CPP_EXCEPTIONS'],
         "libraries": [
-            "-Wl",
-            "-rpath",
-            "<(module_root_dir)",
+            "-Wl,-rpath,<(module_root_dir)"
         ],
     }]
 }
