@@ -1,6 +1,6 @@
 {
   "name": "node-tonlib",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": "https://github.com/labraburn/node-tonlib.git",
   "author": "Anton Spivak <oboupo@gmail.com>",
   "license": "MIT",
