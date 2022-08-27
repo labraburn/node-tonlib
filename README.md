@@ -1,7 +1,8 @@
 # node-tonlib
 
-- NodeJS wrapper for [tonlibjson](https://github.com/ton-blockchain/ton/tree/master/tonlib/tonlib) written as c++ addon.
+NodeJS wrapper for [tonlibjson](https://github.com/ton-blockchain/ton/tree/master/tonlib/tonlib) written as c++ addon.
 - Binaries can be located here - [pytonlib](https://github.com/toncenter/pytonlib/tree/main/pytonlib/distlib)
+- Works on `Ubuntu 20.04`, `macOS Mojave`
 
 ## Installation
 
